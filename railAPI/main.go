@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Hands-On-Restful-Web-services-with-Go/chapter4/dbutils"
 	"github.com/emicklei/go-restful"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/supesharisuto/RestfulWebservice-4/dbutils"
 )
 
 // DB Driver visible to whole program
